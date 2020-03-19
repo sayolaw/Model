@@ -312,7 +312,9 @@ body {
       top: 35vh;
       margin-top: -60px; }
 
-  .models .model .info {
-    opacity: 0.5; } }
+  .models .model {
+    margin-bottom: 30px; }
+    .models .model .info {
+      opacity: 0.5; } }
 
 /*# sourceMappingURL=style.css.map */
