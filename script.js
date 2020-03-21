@@ -145,7 +145,7 @@ function Top(props) {
 		),
 		React.createElement(
 			"div",
-			{ className: "top-cover col-md-8" },
+			{ className: "top-cover col-12 col-md-8" },
 			React.createElement(
 				"div",
 				{ className: "top " },

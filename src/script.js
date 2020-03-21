@@ -72,7 +72,7 @@ function Top(props){
 		<h2>Alexandra <br /> Onuorah</h2>
 		<p>YOUNG MODEL 2020</p>
 		</div>
-		<div className="top-cover col-md-8">
+		<div className="top-cover col-12 col-md-8">
 		<div className="top ">
 		<img src="media/babe.jpg"  />
 		<img src="media/babe2.jpg" />
