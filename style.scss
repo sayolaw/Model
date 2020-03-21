@@ -242,17 +242,26 @@ body{
 }
 .models{
 	margin-top: 50px;
-	width:100vw;
-	overflow-x: hidden;
+	
 	h3{
 		font-size: 1em;
 		font-weight: bold;
 		text-align: center;
 	}
+	button{
+		color:white;
+		border:0px;
+		height:50px;
+		border-radius:24px;
+		font-size: 0.7em;
+		font-weight: bold;
+		background-color:$cyan;
+		margin: 30px auto;
+	}
 }
 .list{
-	margin:30px auto;
-
+	
+	margin:30px 0;
 
 .model{
 	color:white;
@@ -287,6 +296,123 @@ a:hover{
 		opacity: 1;
 	}
 }
+}
+.news{
+
+	margin-top:50px;
+	padding:0 14px;
+	h3{
+		text-align: center;
+	}
+	.bar{
+		width:70px;
+		height:2px;
+		background-color:black;
+		margin:10px auto;
+		margin-bottom: 30px;
+	}
+	.col-md-7{
+		padding:0;
+	
+		.row{
+			margin-left: 0px;
+			padding:0;
+		}
+	}
+	.news-items{
+		.ini{
+
+			padding:0 14px 0 14px;
+			margin-top: -400px;
+			margin-bottom: 30px;
+	
+			img{
+				padding:0;
+				height:400px;
+
+			}
+			.info{
+				position:relative;
+				top:400px;
+				left:0;
+				z-index: 3;
+				height:400px;
+				display: flex;
+				flex-direction: column;
+			
+				justify-content: flex-end;
+				background-color:$cyan;
+				color:white;
+				h4{
+					font-size: 1.3em;
+					line-height: 150%;
+				}
+				p{
+					font-size: 0.7em;
+				}
+
+			}
+		}
+		.item{
+			
+			padding:0 14px 0 14px;
+			img{
+				padding:0;
+			height:300px;}
+			h4{
+				margin-top: 15px;
+				font-size: 0.9em;
+				font-weight: bold;
+				line-height: 150%;
+			}
+			p{
+				font-weight: bold;
+				font-size: 0.7em;
+				color:grey;
+			}
+		}
+		.last-item{
+			padding:0;
+			img{
+			height:730px;}
+			.info{
+				padding-left: 14px;
+			}
+			h4{
+				margin-top: 15px;
+				font-size: 0.9em;
+				font-weight: bold;
+				line-height: 150%;
+			}
+			p{
+				font-weight: bold;
+				font-size: 0.7em;
+				color:grey;
+			}
+		}
+	}
+
+}
+.footer{
+	padding:0 14px;
+	
+	margin-top: 50px;
+	p{
+		font-size: 0.7em;
+		letter-spacing: 2px;
+		color:grey;
+		font-weight: bold;
+	}
+	.socials{
+		display: flex;
+		justify-content: flex-end;
+		padding:0 14px;
+		
+		a{
+			margin: 0 20px;
+			color:black;
+		}
+	}
 }
 @media screen and (max-width: 767px) {
 	body{
@@ -429,4 +555,45 @@ a:hover{
   		}
   	}
   }	
+  .news{
+  	.col-md-7{
+  		.row{
+  			padding:0;
+  			.item{
+
+  			}
+  		}
+  	}
+  	.ini{
+  		padding-left: 0;
+  		
+  		.info{}
+  		img{
+  		
+  		}
+  	}
+
+  	.news-items{
+  	.last-item{
+  		img{
+  		height:300px;
+  		}
+  	}
+  	.item{
+  	
+  		img{
+  			height:150px;
+  		}
+  	}
+  	}
+  }
+  .footer{
+  	p{
+  		text-align: center;
+  	}
+  	.socials{
+  		justify-content: center;
+  		margin-bottom: 10px;
+  	}
+  }
   }

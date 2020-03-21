@@ -89,7 +89,7 @@ function Top(props){
 
 function Models(props){
 	return(
-		<div className="models">
+		<div className="models ">
 		<h3>Our Models</h3>
 		<div className="list row col-12 justify-content-center">
 		<Model name="Alexandra Onuorah" image="media/babe4.jpg" address=""/>
@@ -100,6 +100,7 @@ function Models(props){
 		<Model  name="James RIchards" image="media/img5.jpg" address="" />
 		<Model name="Sayo Onuorah" image="media/img6.jpg" address=""/>
 		<Model  name="Law RIchards" image="media/img7.jpg" address="" />
+		<button className="col-md-2">EXPLORE MORE</button>
 		</div>
 		
 		
@@ -118,6 +119,76 @@ function Model(props){
 		</a>
 		)
 }
+function News(props){
+	return(
+		<div className="news">
+		<h3>Latest News</h3>
+		<div className="bar"></div>
+		<div className="news-items row">
+		<div className="col-12 col-md-7">
+		<Newsini image="media/img5.jpg"  topic="Five Reasons To Keep Your Beauty Salon Reservation" date="20th March 2020"/>
+		<div className="row col-12">
+		<Newsitem image="media/img7.jpg"  topic="Motivation And Your Personal Vision An Unbeateable Force" date="12th Febuary 2020"/>
+		<Newsitem image="media/img8.jpg"  topic="Dream Interpretation Common Symbols And Their Meanings" date="10th Febuary 2020"/>
+		</div>
+		</div>
+		<Item image="media/img6.jpg"  topic="29 Motivational Quotes For Business And Other Work Environments" date="19th March 2020"/>
+		</div>
+		</div>
+		)
+}
+function Newsitem(props){
+	return(
+		<div className="item col-6">
+		<img src={props.image} className="col-12" />
+		<div className="info">
+		<h4>{props.topic}</h4>
+		<p>{props.date}</p>
+		</div>
+		</div>
+		)
+
+}
+function Newsini(props){
+	return(
+		<div className="ini">
+		<div className="info col-5 col-md-4">
+		<h4>{props.topic}</h4>
+		<p>{props.date}</p>
+		</div>
+		<img src={props.image} className="col-12" />
+		
+		</div>
+		)
+
+}
+function Item(props){
+	return(
+		<div className="last-item col-md-5">
+		<img src={props.image} className="col-12" />
+		<div className="info">
+		<h4>{props.topic}</h4>
+		<p>{props.date}</p>
+		</div>
+		</div>
+		)
+
+}
+function Footer(props){
+	return(
+		<div className="footer col-md-12">
+		<hr />
+		<div className="row">
+		<p className="col-12 col-md-8"> &copy; 2020 Engineered By STL For Alson</p>
+		<div className="socials row col-12 col-md-4">
+		<a href=""><span className="fab fa-facebook-square"></span></a>
+		<a href=""><span className="fab fa-twitter"></span></a>
+		<a href=""><span className="fab fa-youtube"></span></a>
+		<a href=""><span className="fab fa-instagram"></span></a>
+		</div>
+		</div>
+		</div>)
+}
 function App(props){
 	return(
 		<div>
@@ -125,6 +196,8 @@ function App(props){
 		<Decor />
 		<Top />
 		<Models />
+		<News />
+		<Footer />
 		</div>
 
 		)
