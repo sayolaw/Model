@@ -56,10 +56,11 @@
 		setInterval(function(){
 			 var sliderVal= "-"+val +"vw"
 			 var ival = val + "vw";
-			 
+			 $('.top button').css('margin-left',ival)
 			  $('.top').animate({
 			  	marginLeft : sliderVal
 			  },2000,function(){
+			  	
 			   if(val===(amount*2)){
 			  	val = 0;  
 			  }
