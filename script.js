@@ -148,10 +148,10 @@ function Top(props) {
 			{ className: "top-cover col-12 col-md-8" },
 			React.createElement(
 				"div",
-				{ className: "top " },
-				React.createElement("img", { src: "media/babe.jpg" }),
-				React.createElement("img", { src: "media/babe2.jpg" }),
-				React.createElement("img", { src: "media/babe3.jpg" }),
+				{ className: "top col-12" },
+				React.createElement("img", { src: "media/babe.jpg", className: "col-12" }),
+				React.createElement("img", { src: "media/babe2.jpg", className: "col-12" }),
+				React.createElement("img", { src: "media/babe3.jpg", className: "col-12" }),
 				React.createElement(
 					"button",
 					{ className: "button" },

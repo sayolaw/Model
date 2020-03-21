@@ -73,10 +73,10 @@ function Top(props){
 		<p>YOUNG MODEL 2020</p>
 		</div>
 		<div className="top-cover col-12 col-md-8">
-		<div className="top ">
-		<img src="media/babe.jpg"  />
-		<img src="media/babe2.jpg" />
-		<img src="media/babe3.jpg" />
+		<div className="top col-12">
+		<img src="media/babe.jpg" className="col-12" />
+		<img src="media/babe2.jpg" className="col-12" />
+		<img src="media/babe3.jpg" className="col-12" />
 		<button className="button"><span className="fab fa-google-play"></span>
 		</button>
 		</div>
