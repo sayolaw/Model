@@ -134,7 +134,7 @@ function Profile(props) {
 		return React.createElement(
 				"div",
 				{ className: "profile row col-md-12 align-items-center" },
-				React.createElement("img", { className: "col-md-5", src: "media/babe4.jpg" }),
+				React.createElement("img", { className: "col-md-5", src: "media/babe5.jpg" }),
 				React.createElement(
 						"div",
 						{ className: "info col-md-5" },
@@ -146,7 +146,7 @@ function Profile(props) {
 										null,
 										React.createElement(
 												"a",
-												{ href: "" },
+												{ href: "", className: "active" },
 												"PROFILE"
 										)
 								),
@@ -269,7 +269,7 @@ function Press(props) {
 								React.createElement("span", { className: "fa fa-arrow-right" })
 						)
 				),
-				React.createElement("img", { className: "col-md-5", src: "media/babe4.jpg" })
+				React.createElement("img", { className: "col-md-5", height: "550px", src: "media/babe6.jpg" })
 		);
 }
 function Item(props) {

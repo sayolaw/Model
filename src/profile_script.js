@@ -62,10 +62,10 @@ function Top(props){
 function Profile(props){
 	return(
 		<div className="profile row col-md-12 align-items-center">
-		<img className="col-md-5" src="media/babe4.jpg" />
+		<img className="col-md-5" src="media/babe5.jpg" />
 		<div className="info col-md-5">
 		<ul>
-		<li><a href="">PROFILE</a></li>
+		<li><a href="" className="active">PROFILE</a></li>
 		<li><a href="">PRESS</a></li>
 		<li><a href="">AWARDS</a></li>
 		<li><a href="">CREDITS</a></li>
@@ -105,7 +105,7 @@ function Press(props){
 		<Item image="media/babe3.jpg" topic="5 Reasons To Keep Your Beauy Salon Reservation" date="1st April 2020" />
 		<a href="">EXPLORE MORE <span className="fa fa-arrow-right"></span></a>
 		</div>
-		<img className="col-md-5" src="media/babe4.jpg"/>
+		<img className="col-md-5" height="550px" src="media/babe6.jpg"/>
 		</div>
 		)
 }

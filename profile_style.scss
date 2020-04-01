@@ -248,6 +248,7 @@ body{
 	height:550px;
 	img{
 		padding:0;
+		
 	}
 	.info{
 		h3{
@@ -371,11 +372,15 @@ body{
   		margin-left: 0px;
   		margin-top: 200px;
   		img{
-  			padding:0;
+  			padding:14px;
   		}
   		.info{
   			ul{
-  				width:90vw;
+  				width:80vw;
+  				margin:0 auto;
+  				.active{
+  					color:$cyan;
+  				}
   			}
   			p{
   				width:90vw;
@@ -388,8 +393,7 @@ body{
   			}
   		}
   		.socials{
-  			width:90vw;
-  			
+  			width:70vw;
   			padding: 0;
   			ul{
   				justify-content: center;
@@ -403,6 +407,7 @@ body{
   		}
   	}
   	.press{
+  		height:1000px;
   		padding:0;
   		margin-left: 0px;
   		a{
@@ -413,8 +418,8 @@ body{
   			padding:0;
   		}
   		.info{
-
-  			height: 500px;
+  			
+  			height: 550px;
   			
   			h3{
   				width:90vw;

@@ -279,9 +279,12 @@ body {
     margin-left: 0px;
     margin-top: 200px; }
     .profile img {
-      padding: 0; }
+      padding: 14px; }
     .profile .info ul {
-      width: 90vw; }
+      width: 80vw;
+      margin: 0 auto; }
+      .profile .info ul .active {
+        color: #70b8b4; }
     .profile .info p {
       width: 90vw; }
     .profile .info h3 {
@@ -289,7 +292,7 @@ body {
     .profile .info h5 {
       width: 90vw; }
     .profile .socials {
-      width: 90vw;
+      width: 70vw;
       padding: 0; }
       .profile .socials ul {
         justify-content: center;
@@ -299,6 +302,7 @@ body {
           margin-right: 30px; }
 
   .press {
+    height: 1000px;
     padding: 0;
     margin-left: 0px; }
     .press a {
@@ -307,7 +311,7 @@ body {
     .press img {
       padding: 0; }
     .press .info {
-      height: 500px; }
+      height: 550px; }
       .press .info h3 {
         width: 90vw; }
       .press .info .bar {
