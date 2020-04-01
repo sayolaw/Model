@@ -1,0 +1,432 @@
+$cyan:#70b8b4;
+
+body{
+	font-family: 'Raleway', sans-serif;
+	
+	overflow-x: hidden;
+	.container-fluid{
+		padding:0;
+	}
+
+}
+.decor{
+	position:absolute;
+	top:0;
+	right:0;
+	opacity: 0.6;
+	z-index:-1;
+	background-color:$cyan;
+	width:20vw;
+	height:500px;
+}
+.navbar{
+	
+	position: fixed;
+	top:0;
+	z-index: 5;
+	
+	color:black;
+	nav{
+
+		span{
+			display: flex;
+			justify-content: flex-end;
+		}
+	
+		overflow-x: hidden;
+		width:100vw;
+		.brand{
+			padding:0;
+			font-family: 'Varela Round', sans-serif;
+			font-size: 1.7em;
+			letter-spacing: 3px;
+			font-weight: bold;
+		}
+		.links{
+			list-style: none;
+			font-family: raleway;
+			font-weight:500;
+			margin: 0 0 0 50px;
+				li{
+					a{
+						font-size: 0.6em;
+						font-weight: bold;
+						color:black;
+						padding-bottom: 2px;
+						border-bottom:gold;
+					}
+					a:hover{
+						text-decoration: none;
+						border-bottom:2px solid gold;
+					}
+				}
+			
+		}
+		.hamburgers{
+			
+			display: none;
+			cursor: pointer;
+			margin: 0;
+			list-style: none;
+			transform: rotateY(180deg);
+			li{
+				width:25px;
+				height:2px;
+				background-color:white;
+
+			}
+			#ham-2{
+				width:20px;
+				margin:3px 0;
+			}
+			#ham-3{
+				width:15px;
+				
+			}
+		}
+	}
+}
+
+.top{
+	margin-left: 18vw;
+	margin-top: 125px;
+
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width:72vw;
+	overflow:hidden;
+	#top{
+		
+		
+		display: flex;
+		img{
+			width:72vw;
+			height:500px;
+		}
+	}
+	button{
+		border:0px;
+		background-color:white;
+		font-size: 0.7em;
+		font-weight: bold;
+		color: $cyan;
+		width:250px;
+		height:50px;
+		margin-top: -49px;
+	}
+	#play{
+		
+		border-radius:50%;
+		align-self:flex-end;
+		display: flex;
+		background-color:white;
+		align-items:center;
+		justify-content: center;
+		width:50px;
+		height: 50px;
+		position:relative;
+		top:-450px;
+		left:-50px;
+	}
+	.track{
+		position:absolute;
+		top:500px;
+		left:5vw;
+		p{
+			font-size:0.7em;
+			font-weight: bold;
+			color:grey;
+			display: flex;
+			align-items:center;
+			div{
+				opacity:0;
+				height:2px;
+				width:20px;
+				margin-right: 20px;
+				background-color:black;
+			}
+		}
+		.active{
+			color:black;
+			div{
+				opacity: 1;
+			}
+		}
+	}
+	.info{
+		position:absolute;
+		top:300px;
+		left:10vw;
+		h3{
+			font-size: 3.5em;
+			letter-spacing: 3px;
+			margin-bottom: 10px;
+		}
+		p{
+			font-size:0.7em;
+			font-weight: bold;
+		}
+	}
+}
+.profile{
+	margin-top: 100px;
+	width:100vw;
+	overflow-x:hidden; 
+	
+	img{
+		height:450px;
+
+	}
+	.info{
+		ul{
+			width:30vw;
+			padding:0;
+		
+			display: flex;
+			justify-content: space-between;
+			list-style: none;
+			a{
+				font-size:0.7em;
+				font-weight: bold;
+				color:black;
+			}
+			a:hover{
+				text-decoration: none;
+				border-bottom:2px solid black;
+			}
+
+		}
+		h3{
+			margin-top: 50px;
+			font-size:3em;
+		}
+		h5{
+			font-size:1em;
+			font-weight: bold;
+			width:30vw;
+		}
+		small{
+			font-weight: bold;
+		}
+		p{
+			margin-top: 30px;
+			line-height: 200%;
+			font-size: 0.8em;
+			width:30vw;
+			color:grey;
+		}
+	}
+	.socials{
+		ul{
+			list-style: none;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			
+			li{
+				margin-bottom: 15px;
+				a{
+					color:black;
+				}
+			}
+		}
+	}
+}
+
+.press{
+	a{
+		color:white;
+		font-size:0.7em;
+		font-weight: bold;
+		margin-left: -28vw;
+	}
+	margin-top: 100px;
+	padding:0;
+	width:100vw;
+	overflow-x:hidden;
+	height:550px;
+	img{
+		padding:0;
+	}
+	.info{
+		h3{
+			padding-top: 20px;
+			font-size:2.3em;
+			width:35vw;
+		}
+		.bar{
+			width:75px;
+			height:2px;
+			background-color:white;
+			margin-left: -28vw;
+			margin-bottom: 50px;
+		}
+		display: flex;
+		flex-direction: column;
+		align-items:center;
+		justify-content: center;
+		color:white;
+		background:linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0, 0, 0, 0.8)),url('media/back2.jpg');
+		background-size:cover;
+		.item{
+			width:35vw;
+			margin-bottom: 50px;
+			h4{
+				font-size:1em;
+			}
+			small{
+				color:gray;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	body{
+		
+	}
+	.decor{
+		right:0;
+	}
+	.container-fluid{
+		padding-left:14px;
+	}
+  .navbar{
+  	margin-left: 0px;
+  	background-color:black;
+  	color:white;
+  	nav{
+  	padding-left:20px;
+  	.links{
+  		background-color:black;
+  		color:white;
+  		position:absolute;
+  		top:50px;
+  		height:0.1px;
+  		overflow: hidden;
+  		margin: 0px 0 0 -21px;
+  		li{
+  			display: flex;
+  			align-items: center;
+  			color:white;
+  			margin: 10px 0;
+  			padding:5px 3px;
+  			a{
+  				color:white;
+  				font-size: 0.8em;
+  			}
+  		}
+  		.active{
+  			background-color:#212121;
+  		}
+  	}
+  	.hamburgers{
+  		display: flex;
+  		flex-direction: column;
+  		justify-content:center;
+  	}
+  	.brand{
+  		text-align: center;
+  		width:80vw;
+  	}
+  	span{
+  	
+  		display: flex;
+  		justify-content: center;
+  		align-items:center;
+  	}
+}
+  	}
+  	.decor{
+  			width:60vw;
+  			height:300px;
+  		}
+  	.top{
+  		width:90vw;
+  		margin:100px auto;
+
+  		#top{
+  			img{
+  				width:100vw;
+  				height:350px;
+  			}
+
+  		}
+  		.info{
+  		top:490px;
+  	}
+  	.track{
+  		display: flex;
+  		top:465px;
+  		left:10vw;
+  		p{
+  			margin-right: 30px;
+  		}
+  	}
+  	}
+  	.profile{
+  		padding:0;
+  		margin-left: 0px;
+  		margin-top: 200px;
+  		img{
+  			padding:0;
+  		}
+  		.info{
+  			ul{
+  				width:90vw;
+  			}
+  			p{
+  				width:90vw;
+  			}
+  			h3{
+  				width: 90vw;
+  			}
+  			h5{
+  				width:90vw;
+  			}
+  		}
+  		.socials{
+  			width:90vw;
+  			
+  			padding: 0;
+  			ul{
+  				justify-content: center;
+  				
+  				width: 90vw;
+  				flex-direction: row;
+  				li{
+  					margin-right: 30px;
+  				}
+  			}
+  		}
+  	}
+  	.press{
+  		padding:0;
+  		margin-left: 0px;
+  		a{
+  			align-self:flex-start;
+  				margin-left:3vw;
+  		}
+  		img{
+  			padding:0;
+  		}
+  		.info{
+
+  			height: 500px;
+  			
+  			h3{
+  				width:90vw;
+  			}
+  			.bar{
+  				align-self:flex-start;
+  				margin-left:3vw;
+
+  			}
+  			.item{
+  				width:90vw;
+  			}
+  		}
+  	}
+  	}

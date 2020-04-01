@@ -1,0 +1,319 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden; }
+  body .container-fluid {
+    padding: 0; }
+
+.decor {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.6;
+  z-index: -1;
+  background-color: #70b8b4;
+  width: 20vw;
+  height: 500px; }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  color: black; }
+  .navbar nav {
+    overflow-x: hidden;
+    width: 100vw; }
+    .navbar nav span {
+      display: flex;
+      justify-content: flex-end; }
+    .navbar nav .brand {
+      padding: 0;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 1.7em;
+      letter-spacing: 3px;
+      font-weight: bold; }
+    .navbar nav .links {
+      list-style: none;
+      font-family: raleway;
+      font-weight: 500;
+      margin: 0 0 0 50px; }
+      .navbar nav .links li a {
+        font-size: 0.6em;
+        font-weight: bold;
+        color: black;
+        padding-bottom: 2px;
+        border-bottom: gold; }
+      .navbar nav .links li a:hover {
+        text-decoration: none;
+        border-bottom: 2px solid gold; }
+    .navbar nav .hamburgers {
+      display: none;
+      cursor: pointer;
+      margin: 0;
+      list-style: none;
+      transform: rotateY(180deg); }
+      .navbar nav .hamburgers li {
+        width: 25px;
+        height: 2px;
+        background-color: white; }
+      .navbar nav .hamburgers #ham-2 {
+        width: 20px;
+        margin: 3px 0; }
+      .navbar nav .hamburgers #ham-3 {
+        width: 15px; }
+
+.top {
+  margin-left: 18vw;
+  margin-top: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 72vw;
+  overflow: hidden; }
+  .top #top {
+    display: flex; }
+    .top #top img {
+      width: 72vw;
+      height: 500px; }
+  .top button {
+    border: 0px;
+    background-color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #70b8b4;
+    width: 250px;
+    height: 50px;
+    margin-top: -49px; }
+  .top #play {
+    border-radius: 50%;
+    align-self: flex-end;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -450px;
+    left: -50px; }
+  .top .track {
+    position: absolute;
+    top: 500px;
+    left: 5vw; }
+    .top .track p {
+      font-size: 0.7em;
+      font-weight: bold;
+      color: grey;
+      display: flex;
+      align-items: center; }
+      .top .track p div {
+        opacity: 0;
+        height: 2px;
+        width: 20px;
+        margin-right: 20px;
+        background-color: black; }
+    .top .track .active {
+      color: black; }
+      .top .track .active div {
+        opacity: 1; }
+  .top .info {
+    position: absolute;
+    top: 300px;
+    left: 10vw; }
+    .top .info h3 {
+      font-size: 3.5em;
+      letter-spacing: 3px;
+      margin-bottom: 10px; }
+    .top .info p {
+      font-size: 0.7em;
+      font-weight: bold; }
+
+.profile {
+  margin-top: 100px;
+  width: 100vw;
+  overflow-x: hidden; }
+  .profile img {
+    height: 450px; }
+  .profile .info ul {
+    width: 30vw;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none; }
+    .profile .info ul a {
+      font-size: 0.7em;
+      font-weight: bold;
+      color: black; }
+    .profile .info ul a:hover {
+      text-decoration: none;
+      border-bottom: 2px solid black; }
+  .profile .info h3 {
+    margin-top: 50px;
+    font-size: 3em; }
+  .profile .info h5 {
+    font-size: 1em;
+    font-weight: bold;
+    width: 30vw; }
+  .profile .info small {
+    font-weight: bold; }
+  .profile .info p {
+    margin-top: 30px;
+    line-height: 200%;
+    font-size: 0.8em;
+    width: 30vw;
+    color: grey; }
+  .profile .socials ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+    .profile .socials ul li {
+      margin-bottom: 15px; }
+      .profile .socials ul li a {
+        color: black; }
+
+.press {
+  margin-top: 100px;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  height: 550px; }
+  .press a {
+    color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-left: -28vw; }
+  .press img {
+    padding: 0; }
+  .press .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("media/back2.jpg");
+    background-size: cover; }
+    .press .info h3 {
+      padding-top: 20px;
+      font-size: 2.3em;
+      width: 35vw; }
+    .press .info .bar {
+      width: 75px;
+      height: 2px;
+      background-color: white;
+      margin-left: -28vw;
+      margin-bottom: 50px; }
+    .press .info .item {
+      width: 35vw;
+      margin-bottom: 50px; }
+      .press .info .item h4 {
+        font-size: 1em; }
+      .press .info .item small {
+        color: gray;
+        font-weight: bold; }
+
+@media screen and (max-width: 767px) {
+  .decor {
+    right: 0; }
+
+  .container-fluid {
+    padding-left: 14px; }
+
+  .navbar {
+    margin-left: 0px;
+    background-color: black;
+    color: white; }
+    .navbar nav {
+      padding-left: 20px; }
+      .navbar nav .links {
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 50px;
+        height: 0.1px;
+        overflow: hidden;
+        margin: 0px 0 0 -21px; }
+        .navbar nav .links li {
+          display: flex;
+          align-items: center;
+          color: white;
+          margin: 10px 0;
+          padding: 5px 3px; }
+          .navbar nav .links li a {
+            color: white;
+            font-size: 0.8em; }
+        .navbar nav .links .active {
+          background-color: #212121; }
+      .navbar nav .hamburgers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+      .navbar nav .brand {
+        text-align: center;
+        width: 80vw; }
+      .navbar nav span {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+
+  .decor {
+    width: 60vw;
+    height: 300px; }
+
+  .top {
+    width: 90vw;
+    margin: 100px auto; }
+    .top #top img {
+      width: 100vw;
+      height: 350px; }
+    .top .info {
+      top: 490px; }
+    .top .track {
+      display: flex;
+      top: 465px;
+      left: 10vw; }
+      .top .track p {
+        margin-right: 30px; }
+
+  .profile {
+    padding: 0;
+    margin-left: 0px;
+    margin-top: 200px; }
+    .profile img {
+      padding: 0; }
+    .profile .info ul {
+      width: 90vw; }
+    .profile .info p {
+      width: 90vw; }
+    .profile .info h3 {
+      width: 90vw; }
+    .profile .info h5 {
+      width: 90vw; }
+    .profile .socials {
+      width: 90vw;
+      padding: 0; }
+      .profile .socials ul {
+        justify-content: center;
+        width: 90vw;
+        flex-direction: row; }
+        .profile .socials ul li {
+          margin-right: 30px; }
+
+  .press {
+    padding: 0;
+    margin-left: 0px; }
+    .press a {
+      align-self: flex-start;
+      margin-left: 3vw; }
+    .press img {
+      padding: 0; }
+    .press .info {
+      height: 500px; }
+      .press .info h3 {
+        width: 90vw; }
+      .press .info .bar {
+        align-self: flex-start;
+        margin-left: 3vw; }
+      .press .info .item {
+        width: 90vw; } }
+
+/*# sourceMappingURL=profile_style.css.map */

@@ -81,7 +81,7 @@ function Top(props){
 		</button>
 		</div>
 		</div>
-		<button className="profile-button offset-md-2">VIEW PROFILE</button>
+		<button className="profile-button offset-md-2"><a href="profile.html">VIEW PROFILE</a></button>
 		</div>
 		)
 }

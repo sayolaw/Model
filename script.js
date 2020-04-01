@@ -162,7 +162,11 @@ function Top(props) {
 		React.createElement(
 			"button",
 			{ className: "profile-button offset-md-2" },
-			"VIEW PROFILE"
+			React.createElement(
+				"a",
+				{ href: "profile.html" },
+				"VIEW PROFILE"
+			)
 		)
 	);
 }
