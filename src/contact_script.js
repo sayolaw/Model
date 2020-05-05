@@ -15,10 +15,10 @@ function Nav(props){
 
 		{/* Navigation Links */}
 		<ul className="links row col-12 col-md-5"> 
-		<li className="col-md-2 active"><a href="">HOME</a></li>
+		<li className="col-md-2 active"><a href="index.html">HOME</a></li>
 		<li className="col-md-2" style={{"marginRight":"10px"}}><a href="">CLIENTS</a></li>
 		<li className="col-md-2"><a href="">ABOUT</a></li>
-		<li className="col-md-2"><a href="">CONTACT</a></li>
+		<li className="col-md-2"><a href="contact.html">CONTACT</a></li>
 		</ul>
 
 		{/* Company Brand Identity */}

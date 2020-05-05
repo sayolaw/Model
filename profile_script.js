@@ -20,7 +20,7 @@ function Nav(props) {
 					{ className: "col-md-2 active" },
 					React.createElement(
 						"a",
-						{ href: "" },
+						{ href: "index.html" },
 						"HOME"
 					)
 				),

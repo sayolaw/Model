@@ -20,7 +20,7 @@ function Nav(props) {
 										{ className: "col-md-2 active" },
 										React.createElement(
 												"a",
-												{ href: "" },
+												{ href: "index.html" },
 												"HOME"
 										)
 								),
@@ -47,7 +47,7 @@ function Nav(props) {
 										{ className: "col-md-2" },
 										React.createElement(
 												"a",
-												{ href: "" },
+												{ href: "contact.html" },
 												"CONTACT"
 										)
 								)
