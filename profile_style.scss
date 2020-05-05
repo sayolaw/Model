@@ -245,10 +245,10 @@ body{
 	padding:0;
 	width:100vw;
 	overflow-x:hidden;
-	height:550px;
+	height:600px;
 	img{
 		padding:0;
-		
+
 	}
 	.info{
 		h3{
@@ -269,6 +269,7 @@ body{
 		justify-content: center;
 		color:white;
 		background:linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0, 0, 0, 0.8)),url('media/back2.jpg');
+		height: 550px;
 		background-size:cover;
 		.item{
 			width:35vw;
@@ -283,6 +284,29 @@ body{
 		}
 	}
 }
+
+.footer{
+	padding:0 14px;
+	
+	margin-top: 50px;
+	p{
+		font-size: 0.7em;
+		letter-spacing: 2px;
+		color:grey;
+		font-weight: bold;
+	}
+	.socials{
+		display: flex;
+		justify-content: flex-end;
+		padding:0 14px;
+		
+		a{
+			margin: 0 20px;
+			color:black;
+		}
+	}
+}
+
 
 @media screen and (max-width: 767px) {
 	body{
@@ -368,6 +392,7 @@ body{
   	}
   	}
   	.profile{
+  		
   		padding:0;
   		margin-left: 0px;
   		margin-top: 200px;
@@ -393,6 +418,7 @@ body{
   			}
   		}
   		.socials{
+  			
   			width:70vw;
   			padding: 0;
   			ul{
@@ -407,8 +433,13 @@ body{
   		}
   	}
   	.press{
+  		display: flex;
+  		flex-direction:row;
+  		
+  	
   		height:1000px;
   		padding:0;
+  		overflow: visible;
   		margin-left: 0px;
   		a{
   			align-self:flex-start;
@@ -434,4 +465,14 @@ body{
   			}
   		}
   	}
+  	 .footer{
+  	 	margin-top: 50px;
+  	p{
+  		text-align: center;
+  	}
+  	.socials{
+  		justify-content: center;
+  		margin-bottom: 10px;
+  	}
+  }
   	}

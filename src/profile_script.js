@@ -18,7 +18,7 @@ function Nav(props){
 		<li className="col-md-2 active"><a href="">HOME</a></li>
 		<li className="col-md-2" style={{"marginRight":"10px"}}><a href="">CLIENTS</a></li>
 		<li className="col-md-2"><a href="">ABOUT</a></li>
-		<li className="col-md-2"><a href="">CONTACT</a></li>
+		<li className="col-md-2"><a href="contact.html">CONTACT</a></li>
 		</ul>
 
 		{/* Company Brand Identity */}
@@ -120,6 +120,21 @@ function Item(props){
 		</div>
 		)
 }
+function Footer(props){
+	return(
+		<div className="footer col-md-12">
+		<hr />
+		<div className="row">
+		<p className="col-12 col-md-8"> &copy; 2020 Engineered By STL For Alson</p>
+		<div className="socials row col-12 col-md-4">
+		<a href=""><span className="fab fa-facebook-square"></span></a>
+		<a href=""><span className="fab fa-twitter"></span></a>
+		<a href=""><span className="fab fa-youtube"></span></a>
+		<a href=""><span className="fab fa-instagram"></span></a>
+		</div>
+		</div>
+		</div>)
+}
 function App(props){
 	return(
 		<div>
@@ -127,6 +142,7 @@ function App(props){
 		<Top />
 		<Profile />	
 		<Press />
+		<Footer />
 		</div>
 
 		)

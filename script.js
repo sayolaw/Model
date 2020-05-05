@@ -47,7 +47,7 @@ function Nav(props) {
 					{ className: "col-md-2" },
 					React.createElement(
 						"a",
-						{ href: "" },
+						{ href: "contact.html" },
 						"CONTACT"
 					)
 				)
@@ -183,14 +183,14 @@ function Models(props) {
 		React.createElement(
 			"div",
 			{ className: "list row col-12 justify-content-center" },
-			React.createElement(Model, { name: "Alexandra Onuorah", image: "media/babe4.jpg", address: "" }),
-			React.createElement(Model, { name: "Keith RIchards", image: "media/img.jpg", address: "" }),
-			React.createElement(Model, { name: "Max Onuorah", image: "media/img2.jpg", address: "" }),
-			React.createElement(Model, { name: "Keith Alex", image: "media/img3.jpg", address: "" }),
-			React.createElement(Model, { name: "Pete Onuorah", image: "media/img4.jpg", address: "" }),
-			React.createElement(Model, { name: "James RIchards", image: "media/img5.jpg", address: "" }),
-			React.createElement(Model, { name: "Sayo Onuorah", image: "media/img6.jpg", address: "" }),
-			React.createElement(Model, { name: "Law RIchards", image: "media/img7.jpg", address: "" }),
+			React.createElement(Model, { name: "Alexandra Onuorah", image: "media/babe4.jpg", address: "profile.html" }),
+			React.createElement(Model, { name: "Keith RIchards", image: "media/img.jpg", address: "profile.html" }),
+			React.createElement(Model, { name: "Max Onuorah", image: "media/img2.jpg", address: "profile.html" }),
+			React.createElement(Model, { name: "Keith Alex", image: "media/img3.jpg", address: "profile.html" }),
+			React.createElement(Model, { name: "Pete Onuorah", image: "media/img4.jpg", address: "profile.html" }),
+			React.createElement(Model, { name: "James RIchards", image: "media/img5.jpg", address: "profile.html" }),
+			React.createElement(Model, { name: "Sayo Onuorah", image: "media/img6.jpg", address: "profile.html" }),
+			React.createElement(Model, { name: "Law RIchards", image: "media/img7.jpg", address: "profile.html" }),
 			React.createElement(
 				"button",
 				{ className: "col-md-2" },

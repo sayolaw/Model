@@ -1,0 +1,201 @@
+body {
+  font-family: 'Varela Round', sans-serif; }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  color: black; }
+  .navbar nav {
+    overflow-x: hidden;
+    width: 100vw; }
+    .navbar nav span {
+      display: flex;
+      justify-content: flex-end; }
+    .navbar nav .brand {
+      opacity: 0;
+      padding: 0;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 1.7em;
+      letter-spacing: 3px;
+      font-weight: bold; }
+    .navbar nav .links {
+      list-style: none;
+      font-family: raleway;
+      font-weight: 500;
+      margin: 0 0 0 50px; }
+      .navbar nav .links li a {
+        font-size: 0.7em;
+        font-weight: bold;
+        color: white;
+        padding-bottom: 2px;
+        border-bottom: gold; }
+      .navbar nav .links li a:hover {
+        text-decoration: none;
+        border-bottom: 2px solid gold; }
+    .navbar nav .hamburgers {
+      display: none;
+      cursor: pointer;
+      margin: 0;
+      list-style: none;
+      transform: rotateY(180deg); }
+      .navbar nav .hamburgers li {
+        width: 25px;
+        height: 2px;
+        background-color: white; }
+      .navbar nav .hamburgers #ham-2 {
+        width: 20px;
+        margin: 3px 0; }
+      .navbar nav .hamburgers #ham-3 {
+        width: 15px; }
+
+.content .image {
+  padding: 0; }
+  .content .image img {
+    width: 40vw;
+    height: 600px; }
+  .content .image .info {
+    position: absolute;
+    top: 20vh;
+    color: white; }
+    .content .image .info h1 {
+      width: 20vw;
+      margin-left: 8vw;
+      font-size: 4em; }
+    .content .image .info p {
+      font-size: 0.8em;
+      margin-left: 8vw; }
+  .content .image a {
+    position: relative;
+    top: -50px;
+    left: 40vw;
+    margin-left: -200px;
+    display: flex;
+    color: white; }
+    .content .image a .button {
+      font-size: 0.7em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 150px;
+      background-color: #70b8b4; }
+    .content .image a .white {
+      background-color: white;
+      color: black;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .content .image a:hover {
+    text-decoration: none; }
+.content .details {
+  margin-top: 60px; }
+  .content .details h1 {
+    margin-bottom: 50px; }
+  .content .details p {
+    width: 40vw;
+    margin-bottom: 50px; }
+  .content .details .contact p {
+    line-height: 200%;
+    margin-right: 50px;
+    margin-bottom: 30px; }
+    .content .details .contact p .fas {
+      margin-right: 20px; }
+  .content .details .contact .combined {
+    display: flex; }
+
+.decor .box {
+  position: absolute;
+  right: 0;
+  top: 200px;
+  background-color: #70b8b4;
+  height: 250px;
+  width: 100px; }
+
+.footer {
+  padding: 0 14px;
+  margin-top: 50px; }
+  .footer p {
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    color: grey;
+    font-weight: bold; }
+  .footer .socials {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px; }
+    .footer .socials a {
+      margin: 0 20px;
+      color: black; }
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden; }
+
+  .container-fluid {
+    width: 100vw;
+    overflow-x: hidden; }
+
+  .navbar {
+    margin-left: -14px;
+    background-color: black;
+    color: white; }
+    .navbar nav {
+      padding-left: 20px; }
+      .navbar nav .links {
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 50px;
+        height: 0.1px;
+        overflow: hidden;
+        margin: 0px 0 0 -21px; }
+        .navbar nav .links li {
+          display: flex;
+          align-items: center;
+          color: white;
+          margin: 10px 0;
+          padding: 5px 3px; }
+          .navbar nav .links li a {
+            color: white;
+            font-size: 0.8em; }
+        .navbar nav .links .active {
+          background-color: #212121; }
+      .navbar nav .hamburgers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+      .navbar nav .brand {
+        text-align: center;
+        width: 80vw; }
+      .navbar nav span {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+
+  .content .image img {
+    width: 100vw; }
+  .content .image a {
+    top: -74px;
+    left: 99vw; }
+  .content .details {
+    text-align: center; }
+    .content .details p {
+      width: 90vw; }
+    .content .details .contact {
+      text-align: left; }
+      .content .details .contact .combined {
+        flex-direction: column; }
+
+  .decor {
+    display: none; }
+
+  .footer p {
+    text-align: center; }
+  .footer .socials {
+    justify-content: center;
+    margin-bottom: 10px; } }
+
+/*# sourceMappingURL=contact_style.css.map */

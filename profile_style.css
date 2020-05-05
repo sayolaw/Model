@@ -176,7 +176,7 @@ body {
   padding: 0;
   width: 100vw;
   overflow-x: hidden;
-  height: 550px; }
+  height: 600px; }
   .press a {
     color: white;
     font-size: 0.7em;
@@ -191,6 +191,7 @@ body {
     justify-content: center;
     color: white;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("media/back2.jpg");
+    height: 550px;
     background-size: cover; }
     .press .info h3 {
       padding-top: 20px;
@@ -210,6 +211,22 @@ body {
       .press .info .item small {
         color: gray;
         font-weight: bold; }
+
+.footer {
+  padding: 0 14px;
+  margin-top: 50px; }
+  .footer p {
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    color: grey;
+    font-weight: bold; }
+  .footer .socials {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 14px; }
+    .footer .socials a {
+      margin: 0 20px;
+      color: black; }
 
 @media screen and (max-width: 767px) {
   .decor {
@@ -302,6 +319,8 @@ body {
           margin-right: 30px; }
 
   .press {
+    display: flex;
+    flex-direction: row;
     height: 1000px;
     padding: 0;
     margin-left: 0px; }
@@ -318,6 +337,14 @@ body {
         align-self: flex-start;
         margin-left: 3vw; }
       .press .info .item {
-        width: 90vw; } }
+        width: 90vw; }
+
+  .footer {
+    margin-top: 50px; }
+    .footer p {
+      text-align: center; }
+    .footer .socials {
+      justify-content: center;
+      margin-bottom: 10px; } }
 
 /*# sourceMappingURL=profile_style.css.map */

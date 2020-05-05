@@ -18,7 +18,7 @@ function Nav(props){
 		<li className="col-md-2 active"><a href="">HOME</a></li>
 		<li className="col-md-2" style={{"marginRight":"10px"}}><a href="">CLIENTS</a></li>
 		<li className="col-md-2"><a href="">ABOUT</a></li>
-		<li className="col-md-2"><a href="">CONTACT</a></li>
+		<li className="col-md-2"><a href="contact.html">CONTACT</a></li>
 		</ul>
 
 		{/* Company Brand Identity */}
@@ -92,14 +92,14 @@ function Models(props){
 		<div className="models ">
 		<h3>Our Models</h3>
 		<div className="list row col-12 justify-content-center">
-		<Model name="Alexandra Onuorah" image="media/babe4.jpg" address=""/>
-		<Model  name="Keith RIchards" image="media/img.jpg" address="" />
-		<Model name="Max Onuorah" image="media/img2.jpg" address=""/>
-		<Model  name="Keith Alex" image="media/img3.jpg" address="" />
-		<Model name="Pete Onuorah" image="media/img4.jpg" address=""/>
-		<Model  name="James RIchards" image="media/img5.jpg" address="" />
-		<Model name="Sayo Onuorah" image="media/img6.jpg" address=""/>
-		<Model  name="Law RIchards" image="media/img7.jpg" address="" />
+		<Model name="Alexandra Onuorah" image="media/babe4.jpg" address="profile.html"/>
+		<Model  name="Keith RIchards" image="media/img.jpg" address="profile.html" />
+		<Model name="Max Onuorah" image="media/img2.jpg" address="profile.html"/>
+		<Model  name="Keith Alex" image="media/img3.jpg" address="profile.html" />
+		<Model name="Pete Onuorah" image="media/img4.jpg" address="profile.html"/>
+		<Model  name="James RIchards" image="media/img5.jpg" address="profile.html" />
+		<Model name="Sayo Onuorah" image="media/img6.jpg" address="profile.html"/>
+		<Model  name="Law RIchards" image="media/img7.jpg" address="profile.html" />
 		<button className="col-md-2">EXPLORE MORE</button>
 		</div>
 		
