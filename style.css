@@ -176,6 +176,9 @@ body {
     border: 0px;
     height: 60px;
     width: 160px; }
+    #top .profile-button a {
+      color: white;
+      text-decoration: none; }
 
 .models {
   margin-top: 50px; }
